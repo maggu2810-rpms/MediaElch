@@ -1,0 +1,5 @@
+.build-*.log
+MediaElch-*.src.rpm
+MediaElch-*.tar.gz
+x86_64/
+
