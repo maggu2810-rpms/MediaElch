@@ -2,7 +2,7 @@
 
 Name:           MediaElch
 Version:        2.10.4
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Media Manager for Kodi
 
 License:        LGPL-3.0-only
@@ -21,7 +21,6 @@ BuildRequires:  quazip-qt6-devel
 Requires:       qt6-qtmultimedia
 Requires:       qt6-qtsvg
 Requires:       qt6-qt5compat
-Requires:       libmediainfo
 Requires:       quazip-qt6
 
 
