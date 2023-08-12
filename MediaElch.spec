@@ -2,7 +2,7 @@
 
 Name:           MediaElch
 Version:        2.10.4
-Release:        2%{?dist}
+Release:        3%{?dist}
 Summary:        Media Manager for Kodi
 
 License:        LGPL-3.0-only
@@ -35,7 +35,10 @@ Fanarts are downloaded automatically from fanart.tv.
 
 
 %build
-%cmake -DUSE_EXTERN_QUAZIP=ON -DMEDIAELCH_FORCE_QT6=ON
+%cmake \
+  -DDISABLE_UPDATER=ON \
+  -DUSE_EXTERN_QUAZIP=ON \
+  -DMEDIAELCH_FORCE_QT6=ON
 %cmake_build
 
 
